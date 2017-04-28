@@ -1,0 +1,39 @@
+This report contains the results of running tests of the 4 CPU scheduling algorithms simulated by the program in this file. For each algorithm, the simulation was run 3 times then averages of the data sets were calculated.
+
+FIFO Scheduling Algorithm:
+
+	Average Efficiency: 1.188154333
+
+	Average Latency: 132.804133
+
+	Average Response Time: 87.55014
+
+
+Round Robin Sheduling Algorithm:
+
+	Average Efficiency: 1.147696667
+
+	Average Latency: 122.3993567
+
+	Average Response Time: 76.25082667
+
+
+Shortest Job First Scheduling Algorithm:
+
+	Average Efficiency: 1.194351658
+
+	Average Latency: 124.484211
+
+	Average Response Time: 78.24165241
+
+
+Approximate Shortest Job First Scheduling Algorithm:
+
+	Average Efficiency: 1.16421375
+
+	Average Latency: 127.6874538
+
+	Average Response Time: 76.56415276
+
+
+Given this information, we can determine that the "best" CPU scheduling algorithm depends on what our specific goal is. If we want a higher efficiency, then it looks like FIFO or SJF would be a good choice. If we want to lower the latency, then perhaps Round Robin is a good choice. Or if we want a faster response time, ASJF and Round Robin seem to be good as well. When choosing a scheduling algorithm there are many things to be considered, such as the sizes of tasks to be done or how many there are to do. Some algorithms will increase the number context switches, thus decreasing efficiency. As we can see from the data, there is not apparent best algorithm, it all depends on what we are looking for.
